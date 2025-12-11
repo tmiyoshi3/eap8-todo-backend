@@ -1,0 +1,6 @@
+org/wildfly/quickstarts/todos/ToDo.class
+org/wildfly/quickstarts/todos/ToDoDAOImpl.class
+org/wildfly/quickstarts/todos/ToDoDAO.class
+org/wildfly/quickstarts/todos/ToDoBackendApplication.class
+org/wildfly/quickstarts/todos/ToDoController.class
+org/wildfly/quickstarts/todos/Resources.class

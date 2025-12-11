@@ -1,0 +1,4 @@
+org/wildfly/quickstarts/todos/ProvisionedManagedToDoIT.class
+org/wildfly/quickstarts/todos/AbstractToDoIT.class
+org/wildfly/quickstarts/todos/AbstractToDoIT$1.class
+org/wildfly/quickstarts/todos/RemoteToDoIT.class

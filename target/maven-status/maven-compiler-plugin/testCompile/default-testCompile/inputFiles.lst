@@ -1,0 +1,3 @@
+/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/test/java/org/wildfly/quickstarts/todos/RemoteToDoIT.java
+/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/test/java/org/wildfly/quickstarts/todos/ProvisionedManagedToDoIT.java
+/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/test/java/org/wildfly/quickstarts/todos/AbstractToDoIT.java
