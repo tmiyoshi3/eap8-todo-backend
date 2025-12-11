@@ -1,6 +1,0 @@
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/ToDoBackendApplication.java
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/Resources.java
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/ToDoController.java
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/ToDoDAOImpl.java
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/ToDo.java
-/Users/tmiyoshi/dev/eap/2025_12_09_todo-backend-deploy-to-OCP/jboss-eap-quickstarts-8.0.x/todo-backend/src/main/java/org/wildfly/quickstarts/todos/ToDoDAO.java
