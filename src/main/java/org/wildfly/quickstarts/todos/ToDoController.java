@@ -30,6 +30,7 @@ import java.util.Optional;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.DELETE;
@@ -57,13 +58,15 @@ public class ToDoController {
     @GET
     @Produces(APPLICATION_JSON)
     public List<ToDo> getAllTodos(@Context HttpServletRequest request){
-    try {
-        request.getSession(true);
-            // ワーカースレッドを指定時間ブロックする
-            Thread.sleep(3 * 1000);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+        HttpSession session = request.getSession(true);
+
+        // try {
+        //     // ワーカースレッドを指定時間ブロックする
+        //     Thread.sleep(3 * 1000);
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+        session.invalidate();
         return todoDAO.findAll();
     }
 
