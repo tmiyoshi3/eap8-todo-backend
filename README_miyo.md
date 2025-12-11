@@ -24,7 +24,7 @@ oc new-app postgresql-ephemeral \
      The following service(s) have been created in your project: todo-backend-db.
      
             Username: userQ0B
-            Password: gAtf7IRgJV2HwNFK
+            Password: **************
        Database Name: todos
       Connection URL: postgresql://todo-backend-db:5432/
      
@@ -35,7 +35,7 @@ oc new-app postgresql-ephemeral \
         * Namespace=openshift
         * Database Service Name=todo-backend-db
         * PostgreSQL Connection Username=userQ0B # generated
-        * PostgreSQL Connection Password=gAtf7IRgJV2HwNFK # generated
+        * PostgreSQL Connection Password=************** # generated
         * PostgreSQL Database Name=todos
         * Version of PostgreSQL Image=10-el8
 
