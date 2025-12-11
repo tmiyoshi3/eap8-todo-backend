@@ -1,6 +1,6 @@
 # todo-backendをOCPへデプロイ
 ## ビルド
-> export POSTGRESQL_DRIVER_VERSION=42.2.19
+> export POSTGRESQL_DRIVER_VERSION=42.2.19  
 > mvn clean package -Popenshift
 ## oc login
 > oc login https://api.cluster-kjxc9.kjxc9.sandbox1444.opentlc.com:6443 -u admin
@@ -54,8 +54,8 @@ Warning: apps.openshift.io/v1 DeploymentConfig is deprecated in v4.14+, unavaila
 helm install
 > helm install todo-backend -f charts/helm.yaml eap-charts/eap8 
 ※README.mdには末尾がjboss-eap/eap8となっているが、以下のコマンドでリポジトリを確認すると名前が異なる。
-> % helm repo list
-> NAME            URL                                  
+> % helm repo list  
+> NAME            URL                                    
 > eap-charts      https://jbossas.github.io/eap-charts/
 
 初回はすごい時間がかかるのでbuild PODのlogを見ておく。
